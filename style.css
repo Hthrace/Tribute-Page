@@ -65,7 +65,7 @@ body{
   background-position-x: 200px;
   background-position-y: 45px;
  }
-#foot{
+#container-5{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,7 +97,7 @@ body{
     align-items: center;
 
 }
-footer{
+#info{
     order: 1;
     font-weight: 600;
     color: white;
@@ -106,7 +106,6 @@ footer{
     position: relative;
 }
 #vault-boy{
-    display: block;
     order: 2;
     width: 500px;
     margin-top: -55px;
@@ -114,4 +113,17 @@ footer{
 
 #audio{
     padding-bottom: 100px;
+}
+footer{
+    position: relative;
+    font: 100;
+    font-family: monospace;
+    color: white;
+    width: 0%;
+    height: auto;
+    max-width: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+       
 }
