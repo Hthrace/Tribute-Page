@@ -1,0 +1,116 @@
+body{
+    background-color: #4d80bc !important;
+    border: 15px solid #e5ac2e;
+    border-radius: 20px;
+}
+.container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    width: 1000px;
+    margin-right: 50px;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    max-width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: auto;
+
+}
+#profile-pic{
+    position: relative;
+    width: 800px;
+    z-index: 3;
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-top: -75px;
+    flex-wrap: wrap;
+}
+.li-cog{
+    width: 300px; 
+    margin: 0;
+	padding: 20px 0px 30px 64px;
+    list-style: none;
+    background-image: url(img/COG.png);
+	background-repeat: no-repeat;
+	background-position: left;
+    background-size: 80px;
+    word-wrap: nowrap;
+ }
+ .font{
+     color: white;
+     font-family: monospace;
+     font-size: 16px;
+ }
+ 
+ .carousel-slide{
+  position: absolute;
+  width: 700px;
+  z-index: 2;
+  top: 597px;
+  background-image: url(img/TERMINAL\ V1.png);
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position-x: 200px;
+  background-position-y: 45px;
+ }
+#foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#tribute-link{
+    color: blue;
+}
+#img-div{
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+
+}
+#image{
+    width: 0%;
+    height: auto;
+    max-width: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.container-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+footer{
+    order: 1;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    position: relative;
+}
+#vault-boy{
+    order: 2;
+    width: 500px;
+    margin-top: -55px;
+}
+
+#audio{
+    padding-bottom: 100px;
+}
