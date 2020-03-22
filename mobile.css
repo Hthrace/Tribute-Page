@@ -1,0 +1,640 @@
+
+/*Kindle Fire HDX*/
+@media screen and (max-width:800px) and(min-width: 771px){
+    body{
+        background-color: #4d80bc !important;
+        border: 15px solid #e5ac2e;
+        border-radius: 20px;
+    }
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #logo{
+        width: 100%;
+        margin-right: 0%;
+    }
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        max-width: auto;
+        margin-right: auto;
+        margin-left: auto;
+        min-width: auto;
+    }
+    #profile-pic{
+        position: relative;
+        width: 100%;
+        z-index: 3;
+    }
+    .container-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0px;
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+    .li-cog{
+        width: 300px; 
+        margin: 0;
+        padding: 20px 0px 30px 64px;
+        list-style: none;
+        background-image: url(img/COG.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 80px;
+        word-wrap: nowrap;
+     }
+     .font{
+         color: white;
+         font-family: monospace;
+         font-size: 16px;
+     } 
+     .carousel-slide{
+        position: absolute;
+        width: 90%;
+        z-index: 2;
+        top: 455px;
+        background-image: url(img/TERMINAL\ V1.png);
+        background-repeat: no-repeat;
+        background-size: 41%;
+        background-position-x: 228px;
+        background-position-y: 40px;
+     }
+    #container-5{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    #tribute-link{
+        color: blue;
+    }
+    #img-div{
+        font-weight: 500;
+        font-style: italic;
+        color: white;
+        font-size: 20px;
+        font-family: monospace;
+    }
+    #image{
+        width: 0%;
+        height: auto;
+        max-width: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .container-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #info{
+        order: 1;
+        font-weight: 600;
+        color: white;
+        font-size: 20px;
+        font-family: monospace;
+        margin: 0%;
+    }
+    #audio{
+        padding-bottom: 0%;
+    }
+    footer{
+        position: relative;
+        font: 100;
+        font-family: monospace;
+        color: white;
+        width: 0%;
+        height: 0%;
+        max-width: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: block;     
+    }
+    #vault{
+        order: 2;
+    }
+    #vault-image{
+        width: 100%;
+        margin-top: 0%;
+    }
+    }
+
+/*Pixel2, Pixel2 XL, Galaxy9, iPhone6/7/8 Plus iOS11, iPhone XR iOS12, iPhone XS Max iOS12*/
+    @media screen and (max-width: 450px) and (min-width: 380px){
+        body{
+            background-color: #4d80bc !important;
+            border: 15px solid #e5ac2e;
+            border-radius: 20px;
+        }
+        .container-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #logo{
+            width: 100%;
+            margin-right: 0%;
+        }
+        .container-2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: static;
+            max-width: auto;
+            margin-right: auto;
+            margin-left: auto;
+            min-width: auto;
+        }
+        #profile-pic{
+            position: relative;
+            width: 100%;
+            z-index: 3;
+        }
+        .container-3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 0px;
+            margin-top: 0px;
+            flex-wrap: wrap;
+        }
+        .li-cog{
+            width: 300px; 
+            margin: 0;
+            padding: 20px 0px 30px 64px;
+            list-style: none;
+            background-image: url(img/COG.png);
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: 80px;
+            word-wrap: nowrap;
+         }
+         .font{
+             color: white;
+             font-family: monospace;
+             font-size: 16px;
+         }
+         .carousel-slide{
+            position: absolute;
+            width: 90%;
+            z-index: 2;
+            top: 230px;
+            background-image: url(img/TERMINAL\ V1.png);
+            background-repeat: no-repeat;
+            background-size: 40%;
+            background-position-x: 115px;
+            background-position-y: 25px;
+         }
+        #container-5{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        #tribute-link{
+            color: blue;
+        }
+        #img-div{
+            font-weight: 500;
+            font-style: italic;
+            color: white;
+            font-size: 20px;
+            font-family: monospace;
+        }
+        #image{
+            width: 0%;
+            height: auto;
+            max-width: 0%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .container-4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #info{
+            order: 1;
+            font-weight: 600;
+            color: white;
+            font-size: 20px;
+            font-family: monospace;
+            margin: 0%;
+        }
+        #audio{
+            padding-bottom: 0%;
+        }
+        footer{
+            position: relative;
+            font: 100;
+            font-family: monospace;
+            color: white;
+            width: 0%;
+            height: 0%;
+            max-width: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
+            display: block;      
+        }
+        #vault{
+            order: 2;
+        }
+        #vault-image{
+            width: 100%;
+            margin-top: 0%;
+        }
+        }
+
+        /*Ipad*/
+        @media screen and (max-width: 770px) and(min-width: 451px){
+            body{
+                background-color: #4d80bc !important;
+                border: 15px solid #e5ac2e;
+                border-radius: 20px;
+            }
+            .container-1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #logo{
+                width: 100%;
+                margin-right: 0%;
+            }
+            .container-2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: static;
+                max-width: auto;
+                margin-right: auto;
+                margin-left: auto;
+                min-width: auto;
+            
+            }
+            #profile-pic{
+                position: relative;
+                width: 100%;
+                z-index: 3;
+            }
+            .container-3{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                padding: 0px;
+                margin-top: 0px;
+                flex-wrap: wrap;
+            }
+            .li-cog{
+                width: 300px; 
+                margin: 0;
+                padding: 20px 0px 30px 64px;
+                list-style: none;
+                background-image: url(img/COG.png);
+                background-repeat: no-repeat;
+                background-position: left;
+                background-size: 80px;
+                word-wrap: nowrap;
+             }
+             .font{
+                 color: white;
+                 font-family: monospace;
+                 font-size: 16px;
+             }
+             
+             .carousel-slide{
+                position: absolute;
+                width: 90%;
+                z-index: 2;
+                top: 453px;
+                background-image: url(img/TERMINAL\ V1.png);
+                background-repeat: no-repeat;
+                background-size: 42%;
+                background-position-x: 220px;
+                background-position-y: 30px;
+             }
+            #container-5{
+                display: flex;
+                flex-direction: column;
+                align-items: center; 
+            }
+            #tribute-link{
+                color: blue;
+            }
+            #img-div{
+                font-weight: 500;
+                font-style: italic;
+                color: white;
+                font-size: 20px;
+                font-family: monospace;
+            
+            }
+            #image{
+                width: 0%;
+                height: auto;
+                max-width: 0%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+            .container-4{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            
+            }
+            #info{
+                order: 1;
+                font-weight: 600;
+                color: white;
+                font-size: 20px;
+                font-family: monospace;
+                margin: 0%;
+            }
+            #audio{
+                padding-bottom: 0%;
+            }
+            footer{
+                position: relative;
+                font: 100;
+                font-family: monospace;
+                color: white;
+                width: 0%;
+                height: 0%;
+                max-width: 0%;
+                margin-left: 0%;
+                margin-right: 0%;
+                display: block;
+                   
+            }
+            #vault{
+                order: 2;
+            }
+            #vault-image{
+                width: 100%;
+                margin-top: 0%;
+            }
+            }
+
+            /*iPhone6/7/8 iOS11, iPhone X/XS iOS 12*/
+            @media screen and (max-width: 375px) and (min-width: 361px){
+                body{
+                    background-color: #4d80bc !important;
+                    border: 15px solid #e5ac2e;
+                    border-radius: 20px;
+                }
+                .container-1{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                #logo{
+                    width: 100%;
+                    margin-right: 0%;
+                }
+                .container-2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    position: static;
+                    max-width: auto;
+                    margin-right: auto;
+                    margin-left: auto;
+                    min-width: auto;
+                }
+                #profile-pic{
+                    position: relative;
+                    width: 100%;
+                    z-index: 3;
+                }
+                .container-3{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    padding: 0px;
+                    margin-top: 0px;
+                    flex-wrap: wrap;
+                }
+                .li-cog{
+                    width: 300px; 
+                    margin: 0;
+                    padding: 20px 0px 30px 64px;
+                    list-style: none;
+                    background-image: url(img/COG.png);
+                    background-repeat: no-repeat;
+                    background-position: left;
+                    background-size: 80px;
+                    word-wrap: nowrap;
+                 }
+                 .font{
+                     color: white;
+                     font-family: monospace;
+                     font-size: 16px;
+                 }
+                 .carousel-slide{
+                    position: absolute;
+                    width: 80%;
+                    z-index: 2;
+                    top: 220px;
+                    background-image: url(img/TERMINAL\ V1.png);
+                    background-repeat: no-repeat;
+                    background-size: 47%;
+                    background-position-x: 83px;
+                    background-position-y: 11px;
+                 }
+                #container-5{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center; 
+                }
+                #tribute-link{
+                    color: blue;
+                }
+                #img-div{
+                    font-weight: 500;
+                    font-style: italic;
+                    color: white;
+                    font-size: 20px;
+                    font-family: monospace;
+                }
+                #image{
+                    width: 0%;
+                    height: auto;
+                    max-width: 0%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+                .container-4{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                #info{
+                    order: 1;
+                    font-weight: 600;
+                    color: white;
+                    font-size: 20px;
+                    font-family: monospace;
+                    margin: 0%;
+                }
+                #audio{
+                    padding-bottom: 0%;
+                }
+                footer{
+                    position: relative;
+                    font: 100;
+                    font-family: monospace;
+                    color: white;
+                    width: 0%;
+                    height: 0%;
+                    max-width: 0%;
+                    margin-left: 0%;
+                    margin-right: 0%;
+                    display: block;      
+                }
+                #vault{
+                    order: 2;
+                }
+                #vault-image{
+                    width: 100%;
+                    margin-top: 0%;
+                }
+                }
+        
+        /*Galaxy S9/S9+*/
+                    @media screen and (max-width: 360px){
+                        body{
+                            background-color: #4d80bc !important;
+                            border: 15px solid #e5ac2e;
+                            border-radius: 20px;
+                        }
+                        .container-1{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        #logo{
+                            width: 100%;
+                            margin-right: 0%;
+                        }
+                        .container-2{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            position: static;
+                            max-width: auto;
+                            margin-right: auto;
+                            margin-left: auto;
+                            min-width: auto;
+                        }
+                        #profile-pic{
+                            position: relative;
+                            width: 100%;
+                            z-index: 3;
+                        }
+                        .container-3{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+                            padding: 0px;
+                            margin-top: 0px;
+                            flex-wrap: wrap;
+                        }
+                        .li-cog{
+                            width: 300px; 
+                            margin: 0;
+                            padding: 20px 0px 30px 64px;
+                            list-style: none;
+                            background-image: url(img/COG.png);
+                            background-repeat: no-repeat;
+                            background-position: left;
+                            background-size: 80px;
+                            word-wrap: nowrap;
+                         }
+                         .font{
+                             color: white;
+                             font-family: monospace;
+                             font-size: 16px;
+                         }
+                         .carousel-slide{
+                            position: absolute;
+                            width: 83%;
+                            z-index: 2;
+                            top: 211px;
+                            background-image: url(img/TERMINAL\ V1.png);
+                            background-repeat: no-repeat;
+                            background-size: 47%;
+                            background-position-x: 82px;
+                            background-position-y: 11px;
+                         }
+                        #container-5{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center; 
+                        }
+                        #tribute-link{
+                            color: blue;
+                        }
+                        #img-div{
+                            font-weight: 500;
+                            font-style: italic;
+                            color: white;
+                            font-size: 20px;
+                            font-family: monospace;
+                        }
+                        #image{
+                            width: 0%;
+                            height: auto;
+                            max-width: 0%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: block;
+                        }
+                        .container-4{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        #info{
+                            order: 1;
+                            font-weight: 600;
+                            color: white;
+                            font-size: 20px;
+                            font-family: monospace;
+                            margin: 0%;
+                        }
+                        #audio{
+                            padding-bottom: 0%;
+                        }
+                        footer{
+                            position: relative;
+                            font: 100;
+                            font-family: monospace;
+                            color: white;
+                            width: 0%;
+                            height: 0%;
+                            max-width: 0%;
+                            margin-left: 0%;
+                            margin-right: 0%;
+                            display: block;      
+                        }
+                        #vault{
+                            order: 2;
+                        }
+                        #vault-image{
+                            width: 100%;
+                            margin-top: 0%;
+                        }
+                        }
